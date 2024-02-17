@@ -2,7 +2,7 @@ from selene import browser, have
 import os
 from os.path import dirname, abspath
 
-path = os.path.join(dirname(abspath(__file__)), "resources")
+path = os.path.join(dirname(dirname(abspath(__file__))), "resources")
 
 
 def test_demoqa_form():
