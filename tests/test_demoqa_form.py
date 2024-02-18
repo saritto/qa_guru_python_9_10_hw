@@ -12,7 +12,7 @@ def test_demoqa_form():
     registration_page.fill_date_of_birth('1991', '2', '11')
     registration_page.fill_subject('Computer Science')
     registration_page.choose_hobbies('Reading')
-    registration_page.add_photo('/orig.jpg')
+    registration_page.add_photo('orig.jpg')
     registration_page.fill_current_address('Current Address')
     registration_page.select_state_city('raj', 'jai')
     registration_page.submit()
